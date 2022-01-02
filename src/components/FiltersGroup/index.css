@@ -1,0 +1,80 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.searchbar-container {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  background-color: #f1f5f9;
+  padding: 10px;
+}
+.search-input {
+  background-color: #f1f5f9;
+  border: none;
+  color: #64748b;
+}
+.search-input:focus {
+  outline: none;
+}
+.search-icon {
+  background-color: #f1f5f9;
+}
+.options-list {
+  list-style-type: none;
+}
+.list-item {
+  color: #64748b;
+  font-size: 20px;
+  cursor: pointer;
+}
+.category-list {
+  padding-left: 0px;
+}
+.ratings-container {
+  padding-left: 0px;
+}
+.rating-list-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.rating-image {
+  height: 30px;
+  width: 180px;
+  margin-right: 10px;
+}
+.up-text {
+  color: #64748b;
+  font-size: 20px;
+}
+.apply-color {
+  color: #0967d2;
+  font-weight: 500;
+}
+.apply-color-to-rating {
+  color: #0967d2;
+  font-weight: 500;
+}
+.clear-filters-button {
+  background-color: transparent;
+  color: #0967d2;
+  border: 2px solid #0967d2;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 12px;
+  font-weight: 500;
+}
+.filters-group-container {
+  margin-bottom: 40px;
+}
